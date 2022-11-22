@@ -6,6 +6,14 @@ import proj_rememberLikes from "./assets/rememberLikes.jpeg";
 import proj_peep from "./assets/peep.png";
 import proj_birbal from "./assets/birbal.png";
 import proj_soon from "./assets/soon.jpeg";
+
+import proj_adblue from "./assets/adblue.png";
+import proj_grapevine from "./assets/grapevine.png";
+import proj_livestage from "./assets/livestage.png";
+import proj_constructai from "./assets/constructai.png";
+import proj_gangabox from "./assets/gangabox.png";
+import proj_zype from "./assets/zype.png";
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -66,17 +74,60 @@ export default {
     },
     {
       id: 6,
+      title: "AdBlue",
+      service: "Mobile Application",
+      imageSrc: proj_adblue,
+      url: "https://www.greenchem-adblue.com/",
+    },
+    {
+      id: 7,
       title: "PeepConnect",
       service: "Mobile Application",
       imageSrc: proj_peep,
       url: "https://peep.dev",
     },
     {
-      id: 7,
+      id: 8,
       title: "Birbal",
       service: "Mobile Application",
       imageSrc: proj_birbal,
       url: "https://birbal.store/",
+    },
+    {
+      id: 9,
+      title: "LiveStage",
+      service: "Mobile Application",
+      imageSrc: proj_livestage,
+      url: "https://www.livestage.stream/",
+    },
+    {
+      id: 10,
+      title: "Construct AI",
+      service: "Mobile Application",
+      imageSrc: proj_constructai,
+      url: "https://www.construct-ai.com/",
+    },
+    {
+      id: 11,
+      title: "Gangabox",
+      service: "Mobile Application",
+      imageSrc: proj_gangabox,
+      url: "https://play.google.com/store/apps/details?id=com.gangabox&gl=US",
+    },
+    {
+      id: 12,
+      title: "Grapevine",
+      service: "Mobile Application",
+      imageSrc: proj_grapevine,
+      url: "https://grapevinelocal.co.uk/",
+    },
+
+    {
+      id: 13,
+      title: "Zype",
+      service: "Mobile Application",
+      imageSrc: proj_zype,
+      url: "https://www.getzype.com/",
     },
   ],
   social: [
@@ -86,12 +137,13 @@ export default {
       url: "https://github.com/raazatul7",
     },
     {
-      name: "Instagram",
-      url: "https://www.instagram.com/raazatul7",
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/atulrajgupta/",
     },
     {
-      name: "LinkedIn",
-      url: "linkedin.com/in/atul-raj-gupta-3a03a921",
+      name: "StackOverflow",
+      url: "https://stackoverflow.com/users/8457725/atul-raj",
     },
+
   ],
 };

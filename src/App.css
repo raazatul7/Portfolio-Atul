@@ -105,6 +105,10 @@ li .link:hover{
   display: flex;
   flex-direction: row;
 }
+.about-image{
+  padding-left: 10em;
+  height: 80em;
+}
 .about-content{
   position: relative;
   left:15em;
